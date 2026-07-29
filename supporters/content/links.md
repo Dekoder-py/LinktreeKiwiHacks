@@ -1,8 +1,7 @@
 - [Supporter interest form](https://kiwihacks.fillout.com/supporters) | handshake | featured
-- [Email Niko: niko@kiwihacks.org](mailto:niko@kiwihacks.org?subject=Supporting%20KiwiHacks) | envelope | featured
-- [Call or text Niko: +64 22 135 0419](tel:+64221350419) | phone | featured
-- [Sponsorship deck and website](https://kiwihacks.org/) | globe
+- [Email us](mailto:niko@kiwihacks.org?subject=Supporting%20KiwiHacks) | envelope | featured
+- [Call or text us](tel:+64221350419) | phone | featured
+- [KiwiHacks site](https://kiwihacks.org/) | globe
 - [What Nova is](https://nova.kiwihacks.org) | rocket
 - [Niko on LinkedIn](https://www.linkedin.com/in/nikopurdie/) | linkedin
 - [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
-- [Join our Discord](https://discord.gg/war7YQqz4s) | discord
