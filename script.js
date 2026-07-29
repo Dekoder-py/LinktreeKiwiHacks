@@ -30,7 +30,7 @@ const ICON_MAP = {
 // Parse socials from Markdown file
 async function fetchSocialsFromMarkdown() {
     try {
-        const response = await fetch('content/socials.md');
+        const response = await fetch('content/socials.md', { cache: 'no-store' });
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -86,7 +86,7 @@ function renderSocials(socials) {
 // Parse links from Markdown file
 async function fetchLinksFromMarkdown() {
     try {
-        const response = await fetch('content/links.md');
+        const response = await fetch('content/links.md', { cache: 'no-store' });
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
