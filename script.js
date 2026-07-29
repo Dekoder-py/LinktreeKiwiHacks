@@ -22,6 +22,8 @@ const ICON_MAP = {
     'rocket': 'fas fa-rocket',
     'calendar': 'fas fa-calendar-days',
     'form': 'fas fa-clipboard-list',
+    'heart': 'fas fa-heart',
+    'handshake': 'fas fa-handshake',
     'link': 'fas fa-link'
 };
 
@@ -70,7 +72,7 @@ function renderSocials(socials) {
     socials.forEach(social => {
         const a = document.createElement('a');
         a.href = social.url;
-        a.target = social.url.startsWith('mailto:') ? '_self' : '_blank';
+        a.target = /^(mailto:|tel:|\/|\.)/i.test(social.url) ? '_self' : '_blank';
         a.rel = 'noopener';
         a.setAttribute('aria-label', social.label);
         
@@ -132,7 +134,9 @@ const FALLBACK_LINKS = [
 function createLinkButton(link) {
     const a = document.createElement('a');
     a.href = link.url;
-    a.target = '_blank';
+    // mailto:, tel: and same-site links should not open a blank tab
+    const opensInPlace = /^(mailto:|tel:|\/|\.)/i.test(link.url);
+    a.target = opensInPlace ? '_self' : '_blank';
     a.rel = 'noopener noreferrer';
     a.className = `link-button${link.featured ? ' featured' : ''}`;
 

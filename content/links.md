@@ -1,3 +1,4 @@
+- [Support KiwiHacks](/supporters/) | handshake | featured
 - [Watch the Nova announcement video](https://youtu.be/rkwgCF-PL0A) | youtube | featured
 - [Watch our TVNZ Breakfast feature](https://drive.google.com/file/d/1BpiWnlIsZmiLuyemVPS1bvPTzVDnIMV-/view?usp=sharing) | video | featured
 - [KiwiHacks Nova](https://nova.kiwihacks.org) | rocket | featured
