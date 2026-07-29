@@ -9,3 +9,4 @@
 - [Become a Sponsor](mailto:niko@kiwihacks.org?subject=Sponsorship) | envelope
 - [Join our Discord](https://discord.gg/war7YQqz4s) | discord
 - [Follow us on Instagram](https://instagram.com/kiwihacks) | instagram
+- [Support KiwiHacks](/supporters/) | handshake | featured
