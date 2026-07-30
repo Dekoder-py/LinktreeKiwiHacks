@@ -284,13 +284,34 @@ h1 {
 
 /* Footer */
 .footer {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .footer p {
     color: #52525b;
     font-size: 14px;
+}
+
+.footer p + p {
+    margin-top: 6px;
+}
+
+.footer-heart {
+    font-style: normal;
+}
+
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #52525b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #2d2d2d;
 }
 
 /* Responsive */
